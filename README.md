@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <img src='https://imgur.com/d9ljXaC.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+![](https://imgur.com/d9ljXaC.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 https://www.cockos.com/licecap/
