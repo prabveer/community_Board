@@ -29,8 +29,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/d9ljXaC.gif' title='Video Walkthrough' width='100' height= '100'alt='Video Walkthrough' />
-![](https://imgur.com/d9ljXaC.gif)
+<img src='CommunityBoard.gif' title='Video Walkthrough' alt='Video Walkthrough' />
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 https://www.cockos.com/licecap/
