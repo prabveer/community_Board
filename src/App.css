@@ -1,0 +1,120 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: #020617;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.side {
+  height: 30px;
+  width:  30px;
+  filter: invert(90%) sepia(14%) saturate(208%) hue-rotate(140deg) brightness(105%) contrast(106%);
+}
+.logoImg{
+  height: 50px;
+  width:  50px;
+}
+body {
+  background-color: #020617;
+}
+h1 {
+  Color: #f8fafc;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+footer {
+  Color: #f8fafc;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #48abe0, 0 0 40px #48abe0, 0 0 50px #48abe0, 0 0 60px #48abe0, 0 0 70px #48abe0, 0 0 80px #48abe0;
+  }
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  background-color: #020617;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.foodTruck {
+  width: 250px;
+  height: 250px;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  Color: #f8fafc;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+}
+.divider {
+  align-items:  flex-start;
+}
+.divider > div:hover {
+  transition: 5;
+  text-decoration: underline;
+}
+.divider > span:hover {
+  transition: .7;
+  text-decoration: underline;
+}
+.maincontainer{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
